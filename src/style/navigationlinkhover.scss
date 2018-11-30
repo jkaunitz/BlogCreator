@@ -5,19 +5,19 @@
    #header h1{
      text-align: center;
    }
-     nav.navigation {
+     nav.navbar {
      display: block;
      margin-bottom: 10px;
    }
-   nav.navigation  ul {
+   nav.navbar  ul {
      list-style: none;
      font-size: 14px; 
      text-align: center;
    }
-   nav.navigation  ul li {
+   nav.navbar  ul li {
      display: inline-block;
    }
-   nav.navigation  ul li a {
+   nav.navbar  ul li a {
      display: block;
      float: left;
      padding: 3px 6px;
@@ -26,7 +26,7 @@
      text-decoration: none;
      font-weight: bold;
    }
-   nav.navigation  ul li a:hover {
+   nav.navbar  ul li a:hover {
      background: #ccc;
      color: #fff;
      -webkit-border-radius: 3px;
@@ -36,3 +36,27 @@
      margin: 0;
      text-decoration: none;
    }
+
+   #content {
+    display: block;
+    clear: both;
+    margin-bottom: 20px;
+    min-height: 500px;
+  }
+  
+  #left-sidebar {
+    width: 35%;
+    float: left;
+    margin: 0 15px;
+    background: #ccc; 
+    min-height: 500px; 
+    text-align: center;
+  }
+  #right {
+    float: right;
+    width: 62%;
+    background: #efefef; 
+    text-align: center;
+    min-height: 500px;
+  }
+  footer{text-align: center;}
